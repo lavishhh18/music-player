@@ -1,5 +1,13 @@
-# Spotify-Clone
-The Spotify Clone App is a Song Based Web App designed using Full Stack Web Development through the Technology of MEN Stack (MongoDB, ExpressJS, NodeJS), RedisDB, GulpJS, NodeMailer, and Passport Auths. 
+# 𝐓𝐡𝐞 𝐒𝐩𝐨𝐭𝐢𝐟𝐲 𝐂𝐥𝐨𝐧𝐞 𝐀𝐩𝐩 🚀
+
+<br/>
+<p align="center">
+<img height="400" width="800" src="https://user-images.githubusercontent.com/76626529/180227857-ff96db1d-c3f3-434b-b541-1c5c0c83e61a.png">
+</p>
+
+## ⭐ Introduction
+
+The Spotify Clone App is a Song Based Web App designed using Full Stack Web Development through the Technology of MEN Stack (MongoDB, ExpressJS, NodeJS), RedisDB, GulpJS, NodeMailer, and Passport Auths.
 This website is completely Responsive across all the Devices.
 
 -  Users are able to create playlists with their choice of songs.
@@ -11,20 +19,44 @@ This website is completely Responsive across all the Devices.
 -  Users can share their listening activity across other social media.
 -  Users receive mail notifications on new account creation & for Password Reset Link.
 -  Users can log in through manual or social login.
+-  JWT functionality with access & refresh tokens is also present with cookies in the codebase, but is not used. It's for the demonstration purpose.
+   <br/>
+   <br/>
 
-
-## NOTE
+## ❗ Note
 
 -  master branch contains the code for the Heroku Deployment.
 -  Development branch contains the code for the localhost development version.
 -  AWS_Deployment branch contains the code for the AWS Deployment.
+   <br/>
+   <br/>
 
-#
+## 🔥 Getting Started With The Project
 
+-  Fork the Project in your Repository.
+-  Clone the Forked Repository in your Local System.
+-  Install & Configure - NodeJS, MongoDB, Robo3T, POSTMAN, WSL & Redis Server
+-  Create '.env' file & Set the Environment Variables in it, as per the 'ENV_FORMAT.json' file.
+-  Run 'npm install' in GitBash Terminal
+-  Go to 'package.json' & inside the 'SCRIPTS', find "start":"...." <br/>
+   Change it to - "start": "nodemon index.js",
+-  If you want to run the project in development mode locally then go to '.env' file & set,
+   ENVIRONMENT=development <br/>
+   DEPLOYMENT=local
+-  If you want to run the project in production mode locally then go to '.env' file & set,
+   ENVIRONMENT=production <br/>
+   DEPLOYMENT=local
+-  Run 'redis-server' in WSL Terminal
+-  Run 'npm start' in GitBash Terminal
+-  Enjoy :)
 
-## Tools Used
+For any issues related to the project, raise an ISSUE in the respective Repository.
+<br/>
+<br/>
 
-<p align="left">
+## 🔨 Tools Used
+
+<p align="justify">
 <img height="140" width="140" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png">
 <img height="140" width="140" src="https://logodix.com/logo/470309.png">
 <img height="140" width="140" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
@@ -34,8 +66,6 @@ This website is completely Responsive across all the Devices.
 <img height="140" width="140" src="https://code.visualstudio.com/assets/apple-touch-icon.png">
 <img height="140" width="140" src="https://avatars.githubusercontent.com/u/1529926?s=200&v=4">
 </p>
-
-#
 
 -  Library:
    -  bcrypt
@@ -83,18 +113,20 @@ This website is completely Responsive across all the Devices.
 -  Front-End: HTML, CSS, EJS
 -  Runtime Environment: NodeJS
 -  Integrated Development Environment: VSCode
+   <br/>
+   <br/>
 
-#
+## 🔗 Links
 
-> #### Checkout the Website [Web Application](https://the-spotify-clone-app.herokuapp.com/)
+> ## Checkout the Website [Web Application](https://the-spotify-clone-app.herokuapp.com/)
 >
-> #### Checkout the Application Demo Video [YouTube](https://youtu.be/hF3PdO0VS9o)
+> ## Checkout the Application Demo Video [YouTube](https://youtu.be/hF3PdO0VS9o)
 
-#
+<br/>
 
-## Screens
+## 💻 Screens
 
-<p align="left">
+<p align="justify">
 <img height="200" width="400" src="https://user-images.githubusercontent.com/76626529/180227857-ff96db1d-c3f3-434b-b541-1c5c0c83e61a.png">
 <img height="200" width="400" src="https://user-images.githubusercontent.com/76626529/180227858-04ccd50c-052b-4d35-991b-c255a6899af3.png">
 <img height="200" width="400" src="https://user-images.githubusercontent.com/76626529/180227859-a845fba2-e35e-4bf9-9144-bdd5b6b88230.png">
@@ -112,8 +144,9 @@ This website is completely Responsive across all the Devices.
 <img height="200" width="400" src="https://user-images.githubusercontent.com/76626529/180227902-10df965a-d4c7-49cd-97ae-75cfe829fc0f.png">
 <img height="200" width="400" src="https://user-images.githubusercontent.com/76626529/180227848-f2256059-9471-4ac1-8ec0-54109cf38361.png">
 </p>
+<br/>
 
-## Follow me on:
+## 🐦 Follow Me:
 
 > [Dev Community](https://dev.to/ayushkanduri)
 
